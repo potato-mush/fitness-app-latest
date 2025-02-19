@@ -1,0 +1,98 @@
+.home-screen {
+  padding: 20px;
+}
+
+.stats-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-icon {
+  font-size: 24px;
+  background-color: #73ec8b;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.stat-count {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #555;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.recommended-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.recommended-workout {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.workout-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.workout-info {
+  flex: 1;
+}
+
+.workout-title {
+  font-size: 16px;
+  margin: 0;
+}
+
+.workout-description {
+  font-size: 14px;
+  color: #777;
+}
+.calendar-section {
+  margin-top: 20px;
+}
+
+.calendar-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.react-calendar {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.react-calendar__tile {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.react-calendar__tile--active {
+  background-color: #73ec8b;
+  color: white;
+}
